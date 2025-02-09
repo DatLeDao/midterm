@@ -1,0 +1,227 @@
+{
+  "project_info": {
+    "project_number": "71858936026",
+    "firebase_url": "https://shoeshopapp-default-rtdb.firebaseio.com",
+    "project_id": "shoeshopapp",
+    "storage_bucket": "shoeshopapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71858936026:android:1dc55ec68bce6fc55aede3",
+        "android_client_info": {
+          "package_name": "com.example.e_comm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEK0vKmDCkBeIVEpTtTdLBhZ-dXN7n-_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71858936026-837b648sref93lgalfnk5irfd4edjc91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoeshopapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71858936026:android:31e9a4997c9e233f5aede3",
+        "android_client_info": {
+          "package_name": "com.example.kelineyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEK0vKmDCkBeIVEpTtTdLBhZ-dXN7n-_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71858936026-837b648sref93lgalfnk5irfd4edjc91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoeshopapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71858936026:android:104ef89f0379980c5aede3",
+        "android_client_info": {
+          "package_name": "com.example.midterm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEK0vKmDCkBeIVEpTtTdLBhZ-dXN7n-_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71858936026-837b648sref93lgalfnk5irfd4edjc91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoeshopapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71858936026:android:863205eee8c29d4d5aede3",
+        "android_client_info": {
+          "package_name": "com.example.shoeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEK0vKmDCkBeIVEpTtTdLBhZ-dXN7n-_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71858936026-837b648sref93lgalfnk5irfd4edjc91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoeshopapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71858936026:android:c091542e47b045d75aede3",
+        "android_client_info": {
+          "package_name": "com.example.shoesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEK0vKmDCkBeIVEpTtTdLBhZ-dXN7n-_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71858936026-837b648sref93lgalfnk5irfd4edjc91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoeshopapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71858936026:android:fa305554435106aa5aede3",
+        "android_client_info": {
+          "package_name": "com.example.shoeshopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEK0vKmDCkBeIVEpTtTdLBhZ-dXN7n-_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71858936026-gfpkishbbo8ltupqi59q7ieo7a4ugkka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71858936026-837b648sref93lgalfnk5irfd4edjc91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoeshopapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
