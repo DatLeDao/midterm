@@ -73,14 +73,16 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
                   child: ListTile(
                     contentPadding: const EdgeInsets.symmetric(
                         horizontal: 15, vertical: 10),
-                    //leading: CircleAvatar(
-                    //  backgroundImage: NetworkImage(
-                    //    snapshot.child("image_url").value.toString(),
-                    //  ),
-                    //  child: snapshot.child("image_url").value == null
-                    //      ? Text((index + 1).toString())
-                    //      : null,
-                    //),
+                    leading: SizedBox(
+                      width: 60,
+                      height: 60,
+                      child: snapshot.child("image_url").value == null
+                          ? const Icon(Icons.image, size: 50)
+                          : Image.network(
+                              snapshot.child("image_url").value.toString(),
+                              fit: BoxFit.cover,
+                            ),
+                    ),
                     title: Text(
                       'Name: ${snapshot.child("name").value.toString()} ',
                       style: const TextStyle(
@@ -89,16 +91,10 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
                     subtitle: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                          // if (snapshot.child("image_url").value != null)
-                           // Image.network(
-                          //  snapshot.child("image_url").value.toString(),
-                          //   height: 100,
-                          //  fit: BoxFit.cover,
-                          // ),
-                        //Text(
-                        //  'Category: ${snapshot.child("category").value.toString()} ',
-                        //  style: const TextStyle(color: Colors.grey),
-                        //),
+                        Text(
+                          'Category: ${snapshot.child("category").value.toString()} ',
+                          style: const TextStyle(color: Colors.grey),
+                        ),
                         Text(
                           'Price: ${snapshot.child("price").value.toString()}',
                           style: const TextStyle(
@@ -174,7 +170,7 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
   void _showEditDialog(DataSnapshot snapshot) {
     nameController.text = snapshot.child("name").value.toString();
     priceController.text = snapshot.child("price").value.toString();
-    //categoryController.text = snapshot.child("category").value.toString();
+    categoryController.text = snapshot.child("category").value.toString();
     _imageFile = null; // Reset ảnh
     _showDialog(
       title: "Update Product",
@@ -222,14 +218,13 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
                     labelText: "Enter Price",
                   ),
                 ),
-                //TextField(
-                //  controller: categoryController,
-                //  decoration: const InputDecoration(
-                //    labelText: "Enter Category",
-                //    hintText: "e.g. Flower",
-                //  ),
-                //),
-                /*const SizedBox(height: 20),
+                TextField(
+                  controller: categoryController,
+                  decoration: const InputDecoration(
+                    labelText: "Enter Category",
+                  ),
+                ),
+                const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: _pickImage,
                   child: const Text('Pick Image'),
@@ -241,7 +236,7 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
                     height: 100,
                     fit: BoxFit.cover,
                   ),
-                ],*/
+                ],
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: onPressed,
