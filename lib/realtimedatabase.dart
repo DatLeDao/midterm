@@ -107,7 +107,7 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
                       children: [
                         IconButton(
                           icon: const Icon(Icons.edit,
-                              color: Color.fromARGB(255, 59, 226, 126)),
+                              color: Colors.blueAccent),
                           onPressed: () {
                             _showEditDialog(snapshot);
                           },
@@ -196,7 +196,7 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
             borderRadius: BorderRadius.circular(20),
           ),
           child: Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.all(10.0),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
@@ -224,25 +224,16 @@ class _RealTimeDatabaseState extends State<RealtimeDatabase> {
                     labelText: "Enter Category",
                   ),
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 5),
                 ElevatedButton(
                   onPressed: _pickImage,
                   child: const Text('Pick Image'),
                 ),
-                if (_imageFile != null) ...[
-                  const SizedBox(height: 10),
-                  Image.file(
-                    File(_imageFile!.path),
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                ],
-                const SizedBox(height: 20),
+                const SizedBox(height: 5),
                 ElevatedButton(
                   onPressed: onPressed,
                   child: Text(actionText),
                 ),
-                const SizedBox(height: 10),
               ],
             ),
           ),

@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:midterm/firebase_options.dart';
 import 'login.dart';
-import 'sign_up_page.dart'; // Import cho trang đăng ký
+import 'sign_up_page.dart';
 import 'realtimedatabase.dart';
 
 Future<void> main() async {
